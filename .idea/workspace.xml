@@ -5,7 +5,7 @@
     <ignored path="Pluralsight.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/App.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380176799927" ignored="false" />
-    <file path="/MainFrame.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1381197457269" ignored="false" />
+    <file path="/MainFrame.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1381197949835" ignored="false" />
     <file path="/TextPanel.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380247229481" ignored="false" />
     <file path="/ToolBar.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380260364943" ignored="false" />
     <file path="/fragment.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380511271361" ignored="false" />
@@ -85,12 +85,16 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/haynesy/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="74" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.5321101">
+            <state line="93" column="70" selection-start="3014" selection-end="3014" vertical-scroll-proportion="0.3761468">
               <folding>
-                <element signature="e#2133#2534#0" expanded="true" />
-                <element signature="e#2523#2524#0" expanded="true" />
-                <element signature="e#2788#3054#0" expanded="true" />
-                <element signature="e#3043#3044#0" expanded="true" />
+                <element signature="e#2214#2615#0" expanded="true" />
+                <element signature="e#2604#2605#0" expanded="true" />
+                <element signature="e#2747#3056#0" expanded="true" />
+                <element signature="e#3045#3046#0" expanded="true" />
+                <element signature="e#3097#3406#0" expanded="true" />
+                <element signature="e#3395#3396#0" expanded="true" />
+                <element signature="e#3568#3834#0" expanded="true" />
+                <element signature="e#3823#3824#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -514,10 +518,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="16" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2133#2534#0" expanded="true" />
-            <element signature="e#2523#2524#0" expanded="true" />
-            <element signature="e#2788#3054#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#2214#2615#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2747#3056#0" expanded="true" />
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3097#3406#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3568#3834#0" expanded="true" />
+            <element signature="e#3823#3824#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,12 +609,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/haynesy/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="74" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.5321101">
+        <state line="93" column="70" selection-start="3014" selection-end="3014" vertical-scroll-proportion="0.3761468">
           <folding>
-            <element signature="e#2133#2534#0" expanded="true" />
-            <element signature="e#2523#2524#0" expanded="true" />
-            <element signature="e#2788#3054#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#2214#2615#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2747#3056#0" expanded="true" />
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3097#3406#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3568#3834#0" expanded="true" />
+            <element signature="e#3823#3824#0" expanded="true" />
           </folding>
         </state>
       </provider>

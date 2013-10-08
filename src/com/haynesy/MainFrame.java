@@ -18,6 +18,7 @@ public class MainFrame extends JFrame {
     private TextPanel textPanel;
     private ToolBar toolBar;
     private FormPanel formPanel;
+    private JFileChooser fileChooser;
 
     public MainFrame(){
         super("App");
@@ -27,6 +28,8 @@ public class MainFrame extends JFrame {
         textPanel = new TextPanel();
         toolBar = new ToolBar();
         formPanel = new FormPanel(null);
+
+        fileChooser = new JFileChooser();
 
         setJMenuBar(createMenuBar());
 
@@ -83,6 +86,24 @@ public class MainFrame extends JFrame {
             }
         });
         exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
+
+        importData.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(fileChooser.showOpenDialog(MainFrame.this) == JFileChooser.APPROVE_OPTION){
+                    System.out.println(fileChooser.getSelectedFile());
+                }
+            }
+        });
+
+        exportData.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(fileChooser.showSaveDialog(MainFrame.this) == JFileChooser.APPROVE_OPTION){
+                    System.out.println(fileChooser.getSelectedFile());
+                }
+            }
+        })
 
         JCheckBoxMenuItem showFormItem = new JCheckBoxMenuItem("Person Form");
         showFormItem.setSelected(true);
