@@ -1,8 +1,6 @@
 package com.haynesy.gui;
 
-import com.haynesy.model.EmploymentCategory;
-import com.haynesy.model.Gender;
-import com.haynesy.model.Person;
+import com.haynesy.model.*;
 
 import java.awt.event.ActionListener;
 import java.util.EventObject;
@@ -48,11 +46,19 @@ public class FormEvent extends EventObject {
         return person.getOccupation();
     }
 
-    public int getAgeCategory() {
-        return person.getAgeCat().ordinal();
+    public com.haynesy.model.AgeCategory getAgeCategory() {
+        return person.getAgeCat();
     }
 
     public String getEmploymentCategory() {
         return person.getEmploymentCategory().toString();
+    }
+
+    public boolean getAuCitizen() {
+        return person.isAuCitizen();
+    }
+
+    public String getTaxId() {
+        return person.getTaxId();
     }
 }

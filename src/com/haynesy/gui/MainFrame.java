@@ -1,5 +1,7 @@
 package com.haynesy.gui;
 
+import com.haynesy.controller.Controller;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -19,9 +21,12 @@ public class MainFrame extends JFrame {
     private ToolBar toolBar;
     private FormPanel formPanel;
     private JFileChooser fileChooser;
+    private Controller controller;
 
     public MainFrame(){
         super("App");
+
+        controller = new Controller();
 
         setLayout(new BorderLayout());
 
@@ -41,13 +46,11 @@ public class MainFrame extends JFrame {
         });
         formPanel.setFormListener(new FormListener(){
             public void formEventOccurred(FormEvent e){
-                String name = e.getName();
-                String occupation = e.getOccupation();
-                int ageCat = e.getAgeCategory();
-                String employment = e.getEmploymentCategory();
-                String gender = e.getGender();
 
-                textPanel.append(name +": "+ occupation +" [ "+ employment + " ] ( "+ ageCat + ", "+ gender +" )\n");
+            controller.addPerson(e);
+
+            //textPanel.append(name +": "+ occupation +" [ "+ employment + " ] ( "+ ageCat + ", "+ gender +" )\n");
+
             }
         });
 
