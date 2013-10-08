@@ -1,4 +1,4 @@
-package com.haynesy;
+package com.haynesy.gui;
 
 import java.awt.event.ActionListener;
 import java.util.EventObject;

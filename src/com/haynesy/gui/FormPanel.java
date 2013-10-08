@@ -1,6 +1,4 @@
-package com.haynesy;
-
-import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
+package com.haynesy.gui;
 
 import javax.swing.*;
 import javax.swing.border.Border;

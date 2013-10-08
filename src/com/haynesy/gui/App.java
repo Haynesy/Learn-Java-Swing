@@ -1,7 +1,4 @@
-package com.haynesy;
-
-import javax.swing.*;
-import java.lang.reflect.InvocationTargetException;
+package com.haynesy.gui;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package com.haynesy;
+package com.haynesy.gui;
 
 import javax.swing.filechooser.FileFilter;
 import java.io.File;
