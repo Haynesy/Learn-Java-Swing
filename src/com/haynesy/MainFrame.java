@@ -30,7 +30,7 @@ public class MainFrame extends JFrame {
         formPanel = new FormPanel(null);
 
         fileChooser = new JFileChooser();
-        fileChooser.addChoosableFileFilter();
+        fileChooser.addChoosableFileFilter(new PersonFileFilter());
         setJMenuBar(createMenuBar());
 
         toolBar.setStringListener(new StringListener() {
@@ -103,7 +103,7 @@ public class MainFrame extends JFrame {
                     System.out.println(fileChooser.getSelectedFile());
                 }
             }
-        })
+        });
 
         JCheckBoxMenuItem showFormItem = new JCheckBoxMenuItem("Person Form");
         showFormItem.setSelected(true);

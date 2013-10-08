@@ -5,7 +5,7 @@
     <ignored path="Pluralsight.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/App.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380176799927" ignored="false" />
-    <file path="/MainFrame.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1381198095011" ignored="false" />
+    <file path="/MainFrame.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1381199598138" ignored="false" />
     <file path="/TextPanel.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380247229481" ignored="false" />
     <file path="/ToolBar.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380260364943" ignored="false" />
     <file path="/fragment.java" changelist="2afaa20f-3351-4965-bf52-692c62a6e0c7" time="1380511271361" ignored="false" />
@@ -83,28 +83,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/haynesy/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="43" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+            <state line="105" column="11" selection-start="3475" selection-end="3475" vertical-scroll-proportion="0.6666667">
               <folding>
-                <element signature="e#2259#2660#0" expanded="true" />
-                <element signature="e#2649#2650#0" expanded="true" />
-                <element signature="e#2792#3101#0" expanded="true" />
-                <element signature="e#3090#3091#0" expanded="true" />
-                <element signature="e#3142#3451#0" expanded="true" />
-                <element signature="e#3440#3441#0" expanded="true" />
-                <element signature="e#3613#3879#0" expanded="true" />
-                <element signature="e#3868#3869#0" expanded="true" />
+                <element signature="e#2281#2682#0" expanded="true" />
+                <element signature="e#2671#2672#0" expanded="true" />
+                <element signature="e#2814#3123#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
+                <element signature="e#3164#3473#0" expanded="true" />
+                <element signature="e#3462#3463#0" expanded="true" />
+                <element signature="e#3636#3902#0" expanded="true" />
+                <element signature="e#3891#3892#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonFileFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PersonFileFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/haynesy/PersonFileFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.3888889">
+            <state line="16" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +183,8 @@
         <option value="$PROJECT_DIR$/src/com/haynesy/FormListener.java" />
         <option value="$PROJECT_DIR$/src/com/haynesy/FormEvent.java" />
         <option value="$PROJECT_DIR$/src/com/haynesy/FormPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/haynesy/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/com/haynesy/PersonFileFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/haynesy/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -416,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="728" extended-state="1" />
+    <frame x="0" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,14 +524,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="16" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2259#2660#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2792#3101#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3142#3451#0" expanded="true" />
-            <element signature="e#3440#3441#0" expanded="true" />
-            <element signature="e#3613#3879#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
+            <element signature="e#2281#2682#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="e#2814#3123#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3164#3473#0" expanded="true" />
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3636#3902#0" expanded="true" />
+            <element signature="e#3891#3892#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,27 +613,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/haynesy/MainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/haynesy/PersonFileFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="43" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+        <state line="16" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2259#2660#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2792#3101#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3142#3451#0" expanded="true" />
-            <element signature="e#3440#3441#0" expanded="true" />
-            <element signature="e#3613#3879#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/haynesy/PersonFileFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/haynesy/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="386" selection-end="386" vertical-scroll-proportion="0.3888889">
+        <state line="105" column="11" selection-start="3475" selection-end="3475" vertical-scroll-proportion="0.6666667">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2281#2682#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="e#2814#3123#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3164#3473#0" expanded="true" />
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3636#3902#0" expanded="true" />
+            <element signature="e#3891#3892#0" expanded="true" />
           </folding>
         </state>
       </provider>
