@@ -30,7 +30,7 @@ public class MainFrame extends JFrame {
         formPanel = new FormPanel(null);
 
         fileChooser = new JFileChooser();
-
+        fileChooser.addChoosableFileFilter();
         setJMenuBar(createMenuBar());
 
         toolBar.setStringListener(new StringListener() {
