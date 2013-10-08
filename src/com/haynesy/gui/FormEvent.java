@@ -1,5 +1,9 @@
 package com.haynesy.gui;
 
+import com.haynesy.model.EmploymentCategory;
+import com.haynesy.model.Gender;
+import com.haynesy.model.Person;
+
 import java.awt.event.ActionListener;
 import java.util.EventObject;
 
@@ -12,53 +16,43 @@ import java.util.EventObject;
  */
 public class FormEvent extends EventObject {
 
+    Person person;
 
     public String getGender() {
-        return gender;
+        return person.getGender().toString();
     }
 
-    public void setGender(String gender) {
-        this.gender = gender;
+    public void setGender(Gender gender) {
+        person.setGender(gender);
     }
-
-    private String gender;
-    private int ageCat;
-    private String name;
-    private String occupation;
-    private String employmentCategory;
-    private String taxId;
-    private boolean auCitizen;
 
     public FormEvent(Object source) {
         super(source);
     }
 
     public FormEvent(Object source, String name, String occupation,
-                     int ageCat, String employmentCategory,
-                     String taxId, boolean auCitizen, String gender) {
+                     com.haynesy.model.AgeCategory ageCat, EmploymentCategory employmentCategory,
+                     String taxId, boolean auCitizen, Gender gender) {
         super(source);
 
-        this.name = name;
-        this.occupation = occupation;
-        this.ageCat = ageCat;
-        this.employmentCategory = employmentCategory;
-        this.taxId = taxId;
-        this.auCitizen = auCitizen;
-        this.gender = gender;
+        person = new Person(gender, ageCat, name, occupation, employmentCategory,
+                taxId, auCitizen);
+
     }
 
+    public String getName() {
+        return person.getName();
+    }
 
+    public String getOccupation() {
+        return person.getOccupation();
+    }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-
-    public String getOccupation() { return occupation; }
-    public void setOccupation(String occupation) { this.occupation = occupation; }
-
-    public int getAgeCategory() { return ageCat; }
-    public void setAgeCategory(int ageCat) { this.ageCat = ageCat; }
+    public int getAgeCategory() {
+        return person.getAgeCat().ordinal();
+    }
 
     public String getEmploymentCategory() {
-        return employmentCategory;
+        return person.getEmploymentCategory().toString();
     }
 }

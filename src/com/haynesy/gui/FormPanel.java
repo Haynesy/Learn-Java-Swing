@@ -1,5 +1,8 @@
 package com.haynesy.gui;
 
+import com.haynesy.model.EmploymentCategory;
+import com.haynesy.model.Gender;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -84,13 +87,13 @@ public class FormPanel extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 String name = nameField.getText();
                 String occupation = occupationField.getText();
-                AgeCategory ageCat = (AgeCategory) ageList.getSelectedValue();
-                String employmentCategory = (String) employmentCombo.getSelectedItem();
+                com.haynesy.model.AgeCategory ageCat = (com.haynesy.model.AgeCategory) ageList.getSelectedValue();
+                EmploymentCategory employmentCategory = EmploymentCategory .valueOf((String)employmentCombo.getSelectedItem());
                 String taxId = taxField.getText();
                 boolean auCitizen = citizenCheck.isSelected();
-                String gender = genderGroup.getSelection().getActionCommand();
+                Gender gender = Gender.valueOf(genderGroup.getSelection().getActionCommand());
 
-                FormEvent event = new FormEvent(this, name, occupation, ageCat.getId(),
+                FormEvent event = new FormEvent(this, name, occupation, ageCat,
                         employmentCategory, taxId, auCitizen, gender);
 
                 if (formListener != null)
